@@ -1,0 +1,9 @@
+package: gin_workshop
+import:
+- package: github.com/gin-gonic/gin
+  version: v1.4.0
+- package: go.mongodb.org/mongo-driver
+  version: v1.1.3
+  subpackages:
+  - mongo
+  - mongo/options
